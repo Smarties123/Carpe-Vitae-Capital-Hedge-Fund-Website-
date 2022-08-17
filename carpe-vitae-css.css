@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+4');
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+body {
+    font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #333;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	background-color:#fefefa;
+}
+a {
+    text-decoration: none;
+}
+input {
+    caret-color: #2f8c61;
+}
+/* This is for the top bit of the webpage */
+.icon a:link {
+    color: #3c413f;
+}
+.icon a:visited {
+    color:#89928e;
+}
+.icon a:hover, .icon a:active, .icon a:focus {
+    color: #2f8c61;
+}
+.navbar-nav a:visited {
+    color:#002a17;
+}
+.top-bar {
+    background-color: #e6e6e6;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: solid #2f8c61;
+    color: #3c413f;
+    /*
+    top:0;
+    position: sticky;
+    */
+}
+.icon {
+    float: right;
+    padding-left: 1em;
+}
+/* This is for the navigation bar plus logo */
+.navbar {
+	color: #066308;
+	margin: 2em;
+}
+.logo img{
+    height:70px;
+    padding-right: 1em;
+    float: left;
+}
+
+.navbar-brand {
+    float: left;
+    font-family: 'Source Serif 4', serif;
+    font-size:50px;
+    font-weight:bold;
+}
+.navbar a:link {
+    color: #002a17;
+}
+.navbar :visited {
+    color:#3c413f;
+}
+.navbar a:hover, .navbar a:active, .navbar a:focus {
+    color: #2f8c61;
+}
+.navbar-nav {
+    font-family: 'Outfit', sans-serif;
+    float:right;
+    padding-top: 1em;
+    font-size: 25px;
+    font-weight:100;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-right: solid #002a17;
+    color: #002a17;
+}
+#navbar-end{
+    border-right: transparent;
+}
+#nothing {
+    font-size:0px;
+    color:#fefefa;
+}
+/* This bit is dedicated to the image */
+.image-band {
+    position: relative;
+    text-align: center;
+    color: #fefefa;
+}
+.image {
+    margin-top: 2em;
+    width:100%;
+    height: 44em;
+    object-fit: stretch;
+    position: relative;
+  }
+.image-caption-one {
+    font-family: 'Outfit', sans-serif;
+    font-size:500%;
+    font-weight:200;
+    position: absolute;
+    top: 35%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.image-caption-two {
+    font-family: 'Outfit', sans-serif;
+    font-size:25px;
+    font-weight:100;
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    border-top: dotted;
+    transform: translate(-50%, -50%);
+}
+.button{
+    font-family: 'Outfit', sans-serif;
+    font-size:40px;
+    font-weight:100;
+    position: absolute;
+    border: solid;
+    padding:0.5em;
+    transform: translate(-50%, -50%);
+}
+.image-band a{
+    color:#e6e6e6;
+}
+.image-band a:hover{
+    padding:1em;
+}
+#button-left {
+    top: 80%;
+    left: 30%;
+}
+#button-right{
+    top: 80%;
+    left: 70%;
+}
+#button-center{
+    top: 80%;
+    left: 51%;
+}
+/* The main content of the Thingy^TM */
+main {
+    color: #002a17;
+}
+.content {
+    padding-bottom: 7em;
+}
+#australian-assets img, #holdings img{
+    left:25%;
+    margin-top: 2em;
+    width:50%;
+    object-fit:contain;
+    position: relative;
+}
+#img-caption{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.subheading {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 2em;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+}
+.second-div .subheading {
+    margin-top: 0;
+}
+.second-div p {
+    margin-bottom: 0;
+    padding-bottom: 2em;
+}
+.text {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1em;
+}
+.whitespace {
+    border-bottom: dotted #2f8c61;
+}
+.second-div {
+    background-color: #187748;
+    color:#fefefa;
+    padding-top: 2em;
+}
+.third-div .text {
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    text-align: right;
+    text-justify: inter-word;
+    bottom: 250px;
+    right: 10%;
+}
+.third-div .text a{
+    font-style: normal;
+    font-size: 18px;
+    color:#066308;
+}
+.third-div .text a:hover{
+    color:#89928e;
+}
+.face{
+    align-items:left;
+    width:15%;
+    object-fit: contain;
+    position: relative;
+    left:15%;
+    border-radius: 100%;
+}
+/*The footer part of the website*/
+footer {
+    padding: 10px;
+    background-color: #187748;
+    color:#fefefa;
+    text-align: center;
+}
+footer a{
+    color:#fefefa;
+}
